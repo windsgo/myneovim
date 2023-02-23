@@ -10,6 +10,6 @@ require("bufferline").setup {
             highlight = "Directory",
             text_align = "left"
         }},
-        mode = "tabs"
+        -- mode = "tabs"
     }
 }

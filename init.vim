@@ -29,9 +29,9 @@ lua require('plugin-config/bufferline')
 filetype indent on
 
 let g:coc_global_extensions = [
-	\ 'coc-vimlsp', 
-	\ 'coc-json', 
-	\ 'coc-marketplace',
+    \ 'coc-vimlsp', 
+    \ 'coc-json',   
+    \ 'coc-marketplace',
     \ 'coc-markdownlint',
     \ 'coc-clangd',
     \ 'coc-cmake',
