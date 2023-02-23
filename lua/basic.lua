@@ -62,7 +62,7 @@ vim.o.timeoutlen = 100
 vim.o.splitbelow = true
 vim.o.splitright = true
 -- 自动补全不自动选中
-vim.g.completeopt = "menu,menuone,noselect,noinsert"
+-- vim.g.completeopt = "menu,menuone,noselect,noinsert"
 -- 样式
 vim.o.background = "dark"
 vim.o.termguicolors = true
@@ -73,8 +73,8 @@ vim.o.listchars = "space:·"
 -- 补全增强
 -- vim.o.wildmenu = true
 -- Dont' pass messages to |ins-completin menu|
-vim.o.shortmess = vim.o.shortmess .. 'c'
-vim.o.pumheight = 10
+-- vim.o.shortmess = vim.o.shortmess .. 'c'
+-- vim.o.pumheight = 10
 -- always show tabline
 vim.o.showtabline = 2
 
