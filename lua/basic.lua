@@ -47,7 +47,7 @@ vim.bo.autoread = true
 -- 行结尾可以跳到下一行
 vim.o.whichwrap = 'b,s,<,>,[,],h,l'
 -- 允许隐藏被修改过的buffer
-vim.o.hidden = true
+-- vim.o.hidden = true
 -- 鼠标支持
 vim.o.mouse = "a"
 -- 禁止创建备份文件
