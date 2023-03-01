@@ -51,13 +51,13 @@ vim.o.whichwrap = 'b,s,<,>,[,],h,l'
 -- 鼠标支持
 vim.o.mouse = "a"
 -- 禁止创建备份文件
-vim.o.backup = false
-vim.o.writebackup = false
-vim.o.swapfile = false
+-- vim.o.backup = false
+-- vim.o.writebackup = false
+-- vim.o.swapfile = false
 -- smaller updatetime 
 vim.o.updatetime = 100
 -- 等待mappings
-vim.o.timeoutlen = 100
+vim.o.timeoutlen = 500
 -- split window 从下边和右边出现
 vim.o.splitbelow = true
 vim.o.splitright = true

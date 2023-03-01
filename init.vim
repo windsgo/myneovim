@@ -11,7 +11,8 @@ colorscheme gruvbox
 
 " 插件配置
 lua require('plugin-config/nvim-tree')
-lua require('plugin-config/bufferline')
+" lua require('plugin-config/bufferline')
+lua require('plugin-config/lualine')
 " lua require('plugin-config/which-key')
 " lua require('plugin-config/nvim-treesitter')
 " lua require('plugin-config/telescope')
@@ -97,6 +98,7 @@ nmap <leader>rn <Plug>(coc-rename)
 " Formatting selected code
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
+vmap <leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!

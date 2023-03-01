@@ -15,8 +15,9 @@ return require('packer').startup(function()
         requires = 'kyazdani42/nvim-web-devicons'
     }
     -- bufferline
-    use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+    -- use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
     
+    use {'nvim-lualine/lualine.nvim'}
     -- coc,nvim
     use {'neoclide/coc.nvim', branch = 'release'}
 end)

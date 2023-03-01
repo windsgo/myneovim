@@ -1,6 +1,6 @@
 -- leader key 为空
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
 
 local opt = {
   noremap = true,
@@ -25,6 +25,8 @@ map("n", "<A-Right>", "<C-w>l", opt)
 map("n", "<A-S-Left>", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<A-S-Right>", ":BufferLineCycleNext<CR>", opt)
 
-map("n", "<A-S-c>", ":BufferLinePickClose<CR>", opt)
-map("n", "<A-S-p>", ":BufferLinePick<CR>", opt)
+map("n", "<leader>w", ":w<CR>", opt)
+
+-- map("n", "<A-S-c>", ":BufferLinePickClose<CR>", opt)
+-- map("n", "<A-S-p>", ":BufferLinePick<CR>", opt)
 
