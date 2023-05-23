@@ -6,7 +6,7 @@ lua require('plugins')
 lua require('keybindings')
 " 皮肤设置
 " https://github.com/ellisonleao/gruvbox.nvim
-set background=light " or light if you want light mode
+set background=dark " or light if you want light mode
 let g:gruvbox_italic=0
 colorscheme gruvbox
 
