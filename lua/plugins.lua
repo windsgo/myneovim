@@ -3,7 +3,8 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     ----------- colorscheme -----------
     -- gruvbox
-    use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+    use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
+    -- use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
     -- zephyr
     use 'glepnir/zephyr-nvim'
     --  nord
